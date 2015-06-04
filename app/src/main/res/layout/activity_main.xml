@@ -1,0 +1,69 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|top">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Spotify Streamer"
+            android:id="@+id/spotify"
+            android:layout_gravity="center_horizontal"
+            android:onClick="openApp"
+            android:background="#fff44336" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Scores App"
+            android:id="@+id/scoresApp"
+            android:layout_gravity="center_horizontal"
+            android:onClick="openApp"
+            android:background="#FFCDD2" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Library App"
+            android:id="@+id/libraryApp"
+            android:layout_gravity="center_horizontal"
+            android:onClick="openApp"
+            android:background="#EF9A9A" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Build it bigger"
+            android:id="@+id/buildApp"
+            android:layout_gravity="center_horizontal"
+            android:onClick="openApp"
+            android:background="#E53935" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="XYZ Reader"
+            android:id="@+id/xyzReader"
+            android:layout_gravity="center_horizontal"
+            android:onClick="openApp"
+            android:background="#C62828" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Capstone"
+            android:id="@+id/capstone"
+            android:layout_gravity="center_horizontal"
+            android:onClick="openApp"
+            android:background="#B71C1C" />
+    </LinearLayout>
+</FrameLayout>
